@@ -56,12 +56,13 @@ Le solver attribue les chauffeurs aux différentes tâches en prenant en compte 
 
 #### Étapes pour Visualiser la Planification
 1. Lancer le serveur FastAPI :
-    
-- cd timefold-quickstarts/python/employee-scheduling
-- run-app
+   ```bash 
+    cd timefold-quickstarts/python/employee-scheduling
+    run-app
 
 2. Accéder à l’interface de planification via :
-- http://127.0.0.1:8080
+   ```bash
+    http://127.0.0.1:8080
 
 #### Captures d'Écran
 Des captures d'écran de l'interface et des résultats seront incluses dans le rendu final pour illustrer le fonctionnement.
