@@ -35,6 +35,7 @@ Le volet prévision consiste à :
     cd timefold-quickstarts/python/employee-scheduling
     python -m venv .venv
     . .venv/bin/activate
+    pip install -e .  
 2. Charger les prévisions réalisées par le modèle pour définir le nombre de tâches à effectuer.
 
 
