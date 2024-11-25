@@ -23,6 +23,7 @@ class Shift(JsonDomainBase):
     end: datetime
     location: str
     required_skill: str
+    optional_skill:str
     employee: Annotated[Employee | None,
                         PlanningVariable,
                         Field(default=None)]
