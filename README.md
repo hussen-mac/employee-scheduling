@@ -30,12 +30,11 @@ Le volet prévision consiste à :
 
 ### Volet Outil de Planification
 #### Étapes pour Démarrer
-1. Configurer l'environnement virtuel :
+1. Configurer l'environnement virtuel:
     ```bash
     cd timefold-quickstarts/python/employee-scheduling
     python -m venv .venv
     . .venv/bin/activate
-    pip install -e .
 2. Charger les prévisions réalisées par le modèle pour définir le nombre de tâches à effectuer.
 
 
@@ -56,12 +55,13 @@ Le volet prévision consiste à :
 Le solver attribue les chauffeurs aux différentes tâches en prenant en compte les contraintes définies.
 
 #### Étapes pour Visualiser la Planification
-Lancer le serveur FastAPI :
-    ```bash
-    cd timefold-quickstarts/python/employee-scheduling
-    run-app
-Accéder à l’interface de planification via :
-    http://127.0.0.1:8080
+1. Lancer le serveur FastAPI :
+    
+- cd timefold-quickstarts/python/employee-scheduling
+- run-app
+
+2. Accéder à l’interface de planification via :
+- http://127.0.0.1:8080
 
 #### Captures d'Écran
 Des captures d'écran de l'interface et des résultats seront incluses dans le rendu final pour illustrer le fonctionnement.
