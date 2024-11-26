@@ -19,7 +19,7 @@ Le volet prévision consiste à :
 #### Étapes pour Exécuter les Prévisions  
 1. Accéder au répertoire de préparation des données :  
    ```bash
-    cd timefold-quickstarts/python/prevision/src/data_preparation
+    cd employee-scheduling/python/prevision/src/data_preparation
 2. Le fichier prétraité sera stocké dans : timefold-quickstarts/python/prevision/preprocessing
     ```bash
     python feature_store.py 
